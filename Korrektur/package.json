@@ -1,0 +1,17 @@
+{
+  "name": "kisjasserver",
+  "version": "1.0.0",
+  "main": "Server.js",
+  "scripts": {
+    "start": "node Endabgabe-w20/SERVER/Server.js"
+  },
+  "author": "weiberta",
+  "license": "ISC",
+  "dependencies": {
+    "@types/mongodb": "^3.6.7",
+    "mongodb": "^3.6.4",
+    "node": "^15.8.0"
+  },
+  "devDependencies": {},
+  "description": ""
+}

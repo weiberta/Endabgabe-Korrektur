@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" content="width=device-width, initial-scale=1.0" name="viewport">
+    <link rel="stylesheet" href="stylesheet.css" type="text/css" media="screen"/>
+    <script src="GenerateContent.js" type="text/javascript" charset="utf-8"></script>
+    <script src="Vector.js" type="text/javascript" charset="utf-8"></script>
+    <script src="Rocket.js" type="text/javascript" charset="utf-8"></script>
+    <script src="Particle.js" type="text/javascript" charset="utf-8"></script>
+
+    <title>Firework Bastelcenter</title>
+
+</head>
+<body>
+<header>
+    <h1 class="text">FIREWORK - BASTELCENTER </h1>
+    <p class="text">Stelle deine eigenen Feuerwerke her und lasse deine Raketen steigen!</p>
+    <div id="divheader"></div>
+</header>
+
+<section id="section">
+
+    <form id="form" method="get"> <!-- //  1) form div zu form id !!!!! -->
+
+        <div>
+            <h2 id="feuerw" class="text">Feuerwerke zusammenstellen</h2>
+
+            <fieldset id="Farbe">
+                <legend>Farbe des Feuerwerks als HSL Wert</legend>
+                <div class="note"> 0 = rot;  125 = grün ;  250 = blau ;  60 = gelb ;  300 = pink </div>
+            </fieldset>
+
+            <fieldset id="Radius">
+                <legend>Größe der Partikel</legend>
+            </fieldset>
+
+            <fieldset id="Anzahl">
+                <legend>Anzahl der Partikel</legend>
+            </fieldset>
+
+            <fieldset>
+                <legend>Geschwindigkeit</legend>
+                10
+                <input type="range" name="Geschwindigkeit" id="Geschwindigkeit" min="10" max="30" step="1" value="10">
+                30
+                <progress id="progressbar" max="30" value="0"></progress>
+            </fieldset>
+        </div>
+    </form>
+
+    <div id="order">
+        <h3 class="text">Deine Zusammenstellung ...</h3>
+    </div>
+
+
+
+</section>
+
+
+<canvas id="canvas" width="800px" height="600px"></canvas>
+
+        <button id="buttonspeichern" class="button">Speichern</button>
+        <button id="buttonloeschen" class="button">Löschen</button>
+<button id="buttonimport" class="button">hinzufügen</button>
+
+<button id="buttonladen" class="button">laden</button>
+<select id="loadedRockets">
+    <option value="Auswahl"> gespeicherte Feuerwerke </option>
+</select>
+
+        <script src="DataStructures.js" type="text/javascript" charset="utf-8"></script>
+
+</body>
+</html>

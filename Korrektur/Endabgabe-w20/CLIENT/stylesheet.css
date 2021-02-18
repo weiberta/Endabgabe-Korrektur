@@ -1,0 +1,132 @@
+body {
+    margin: 2%;
+}
+
+header {
+    grid-column: span;
+    text-align: center;
+}
+
+#divheader {
+    background-color: #8a0000;
+    /* padding:7px; */
+    text-align: center;
+    height: 1em;
+    width: 100%;
+}
+
+
+#form, #order {
+    border: thin solid black;
+    margin: 1em 1em 1em -5%;
+    padding: 1em;
+}
+
+
+#order {
+    border: thin solid black;
+    padding-left: 7.5%;
+    font-size: 15px;
+}
+
+/* 10  Zusammenstellung erneut ansehen */
+#feuerw {
+    font-size: 25px;
+    text-align: center;
+}
+
+form, select {
+    font-size: 17px;
+}
+
+fieldset {
+    margin: 10px 5px;
+}
+
+
+text {
+    font-family: "Avenir", serif;
+}
+
+h1 {
+    font-size: 45px;
+    margin-top: 1%;
+    text-allign: center;
+}
+
+h2 {
+    font-size: 25px;
+    margin-top: 1%;
+}
+
+h3 {
+    font-size: 18px;
+    text-align: center;
+    font-style: italic;
+    color: #7c7c7c;
+}
+
+p {
+    margin-top: -30px;
+    font-size: 20px;
+}
+
+#section {
+    float: left;
+    width: 38%;
+    height: 300px;
+    padding: 10px;
+    margin-left: 25px;
+}
+
+
+#canvas {
+    margin-top: 1.5em;
+    background-color: #000;
+}
+
+
+#slider {
+    margin: 25px;
+}
+
+#amount {
+    width: 225px;
+}
+
+#progressbar {
+    width: 0;
+}
+
+
+#loadedRockets {
+    margin-top: 2%;
+    margin-left:45%;
+    width: 10%;
+    text-align: center;
+}
+
+button {
+    float: right;
+    border: thin solid black;
+    font-size: 16px;
+
+    margin-top: 2%;
+    height:15%;
+    width: 10%;
+}
+
+#buttonloeschen,#buttonspeichern {
+    margin-left: 3%;
+    margin-right: 1.5%;
+}
+
+#buttonimport, #buttonladen{
+    margin-right: 3%;
+}
+
+.note{text-align: right; font-size: small; color: silver;}
+
+.button:hover {
+    opacity: 0.5;
+}
